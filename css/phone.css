@@ -1,0 +1,17 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+
+/* Home section */
+
+
+/* Services section  */
+#services{
+    flex-direction: column;
+}
+/* #services .box{
+    flex-direction: column;
+} */
+
+/* Clients section  */

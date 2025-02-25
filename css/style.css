@@ -1,0 +1,245 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 95px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* logo and img */
+#logo {
+    margin: 0px 0px;
+    height: 70px;
+}
+
+#logo img {
+    margin: 0px 0px;
+    border: 2px solid rgb(255, 219, 16);
+    border-radius: 100px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: azure;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .5;
+    top: 0px;
+    left: 0px;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+#navbar ul li a {
+    padding: 5px 15px;
+    display: block;
+    text-decoration: none;
+    color: rgb(251, 24, 70);
+}
+
+#navbar ul li a:hover {
+    color: teal;
+    border-radius: 20px;
+    background-color: white;
+}
+
+/* Home Section */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 150px;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    margin: 125px 0px;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url('https://wallpaperaccess.com/full/4571409.jpg') no-repeat center center/cover;
+    height: 62%;
+    width: 100%;
+    z-index: -2;
+    opacity: .9;
+    /* margin-bottom: 130px; */
+    top: 0px;
+    left: 0px;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+#home p {
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* utility classes */
+.h-primary1 {
+    font-size: 4rem;
+    padding: 10px;
+    color: rgb(235 163 53);
+    text-decoration: underline;
+    padding-bottom: 0px;
+}
+.h-primary2 {
+    font-size: 4rem;
+    padding: 10px;
+    color: rgb(255 221 171);
+    text-decoration: overline;
+}
+
+.h-secondary {
+    font-size: 2.8rem;
+    padding: 10px;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    padding: 5px 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Service Center */
+#services {
+    margin: 34px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid rgb(255, 149, 130);
+    padding: 35px;
+    margin: 0px 8px;
+    border-radius: 44px;
+    background-color: #f0f0f0;
+    font-family: 'Dancing Script', cursive;
+}
+
+#services .box img {
+    width: 210px;
+    height: 210px;
+    margin: auto;
+    display: block;
+}
+
+.h-secondary {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.3rem;
+}
+
+/* Client Section */
+#clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#client-section {
+    height: 344px;
+}
+
+#clients img {
+    height: 100px;
+    width: 115px;
+}
+
+.client-item {
+    padding: 34px;
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url(../bag-1609281__480.jpg);
+    width: 100%;
+    height: 38%;
+    z-index: -1;
+    opacity: .8;
+}
+
+/* Contact Section  */
+#contact {
+    position: relative;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background: url('../../bgimg.jpg') no-repeat center center/cover;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: .5rem;
+    border-radius: 10px;
+    font-size: .8rem;
+    border: 1px solid black;
+}
+
+#contact h1 {
+    color: whitesmoke;
+    text-decoration: underline;
+    font-size: 4rem;
+}
+
+#contact-box form {
+    width: 40%;
+}
+
+#contact-box label {
+    color: whitesmoke;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
