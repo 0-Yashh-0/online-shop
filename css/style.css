@@ -216,7 +216,7 @@
 }
 
 #contact h1 {
-    color: whitesmoke;
+    color: gray;
     text-decoration: underline;
     font-size: 4rem;
 }
@@ -226,7 +226,7 @@
 }
 
 #contact-box label {
-    color: whitesmoke;
+    color: gray;
     font-size: 1.3rem;
     font-weight: bold;
     font-family: 'Cormorant Garamond', serif;
